@@ -7,27 +7,25 @@ public class UT2_E1_21b {
          // Realiza un programa que permita la entrada de varios números y calcule su media.
 
         Scanner scanner = new Scanner(System.in);
+        int n;
         double suma = 0;
-        int contador = 0;
+        double contador = 0;
 
-        System.out.println("Introduce números para calcular su media. Cuando hayas acabado de introducir numeros pulsa cualquier letra.");
+        System.out.println("Escriba un numero para posteriormente calcular la media de los elegidos, si quiere salir teclee algun numero en negativo");
+        n = scanner.nextInt();
 
-        while (true) {
-            System.out.print("Introduce un número: ");
-            if (scanner.hasNextDouble()) {
-                double numero = scanner.nextDouble();
-                suma += numero;
-                contador = contador + 1;
-            } else {
-                break;
-            }
+        while (n >= 0) {
+            suma += n;
+            contador += 1;
+            n = scanner.nextInt();
+        }
+        if (contador > 0) {
+            System.out.println("La media de los numeros marcados es " + suma / contador);
+        } else {
+            System.out.println("Los valores introducidos no siven, pruebe numero mayores a 0");
         }
 
-            double media = suma / contador;
-            System.out.println("Has introducido " + contador + " números.");
-            System.out.println("La media es: " + media);
-
-
         scanner.close();
+
     }
 }
