@@ -28,9 +28,10 @@ public class UT2_E1_24 {
         if (original == invertido){
                 System.out.println("El número " + original +" es capicua" );
             } else {
-                System.out.println("El número " + original +" no 4es capicua");
-                n = sc.nextInt();
+                System.out.println("El número " + original +" no es capicua");
             }
+
+        sc.close();
 
         }
     }

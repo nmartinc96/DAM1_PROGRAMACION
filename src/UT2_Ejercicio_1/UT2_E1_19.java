@@ -17,6 +17,6 @@ public class UT2_E1_19 {
             }
         }
 
-
+        sc.close();
     }
 }
