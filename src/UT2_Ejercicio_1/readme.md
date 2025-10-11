@@ -1,6 +1,6 @@
 # UT 2: Ejercicios basicos 1
 ## En este tema estamos dando los bubcles, como usar el for y/o el while y/o el do while.
-## El switch, son por asi decirlo como opciones
+## Es un lio, centrarme en los ejercicios del 21 al 24, mezcla bucles con if.
 
 Tanda de ejercicios: Se evaluará la nota sobre los ejercicios 18, 19, 21, 23, 24.
 
