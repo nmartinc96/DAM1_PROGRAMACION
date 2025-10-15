@@ -10,14 +10,19 @@ public class UT2_E2_03 {
         System.out.println("Introduzca un número entre 1 y 10, para saber si su nota es suficiente, insuficiente...");
         int n = sc.nextInt();
 
-        if ( n < 1 || n > 10);{
+        if ( n < 1 && n > 10);{
         System.out.println(" El número elegido no es valido");
         n = sc.nextInt();
-        } else if (n > 1 || n < 5 ){
+        } else if (n > 1 && n < 5 ){
             System.out.println(" Su nota es insuficiente ");
-        }else if (n > 5 || n < 7 ) {
+        } else if (n > 5 && n < 7 ) {
             System.out.println(" Su nota es suficiente  ");
-        } else if (n > 7 || n < 9 ){
+        } else if (n > 7 && n < 9 ){
             System.out.println(" Su nota es notable ");
+        } else {
+            System.out.println( "Su nota es sobresaliente");
+        }
+
+        sc.close();
     }
 }
