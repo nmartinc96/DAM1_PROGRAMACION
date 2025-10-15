@@ -3,7 +3,7 @@ package UT2_Ejercicio_2;
 import java.util.Scanner;
 
 public class UT2_E2_01 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         // Crea un programa que te pida la altura de un triángulo rectángulo y lo muestre con asteriscos. Ejemplo con 4:
         //*
         //**
@@ -20,6 +20,7 @@ public class UT2_E2_01 {
                 System.out.print("*");
             }
             System.out.println(); // Salto de línea después de cada fila
+
         }
 
         sc.close();
