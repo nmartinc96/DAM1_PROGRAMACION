@@ -1,5 +1,8 @@
 # UT 2: Ejercicios avanzados 2
-## En este tema 
+## En este tema vemos como meter un bucle dentro de otro, hay que atender los println y los print.
+## Calcular potencias con bucle
+## Repasar los operadores lógicos &&, ||, !.
+## Para cambiar un número negativo a positivo n = n*-1
 
 Tanda de ejercicios: Se evaluará la nota sobre los ejercicios 5, 8, 9, 11.
 
