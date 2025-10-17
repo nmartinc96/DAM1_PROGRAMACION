@@ -3,6 +3,7 @@
 ## Calcular potencias con bucle
 ## Repasar los operadores lógicos &&, ||, !.
 ## Para cambiar un número negativo a positivo n = n*-1
+## En el 7 se ve como aprender a usar Math.ramdon y Math.min y max
 
 Tanda de ejercicios: Se evaluará la nota sobre los ejercicios 5, 8, 9, 11.
 
